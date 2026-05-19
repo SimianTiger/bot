@@ -1,0 +1,34 @@
+{
+  "name": "transcreve",
+  "version": "1.0.0",
+  "description": "Bot Discord para gravação, transcrição e geração automática de atas com IA.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-deprecation index.js",
+    "start:linux": "bash start-linux.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "transcription",
+    "deepgram",
+    "voice"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@deepgram/sdk": "^3.13.0",
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "ffmpeg-static": "^5.3.0",
+    "figlet": "^1.11.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "gradient-string": "^3.0.0",
+    "libsodium-wrappers": "^0.8.4",
+    "opusscript": "^0.0.8",
+    "prism-media": "^1.3.5",
+    "simple-git": "^3.36.0"
+  }
+}
